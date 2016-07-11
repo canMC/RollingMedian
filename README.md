@@ -6,7 +6,7 @@ datetime
 json
 time
 dateutil.parser
-* skiplist - included in SRC. This library implements the data structure that allows for a fast O(ln n) insert and remove of the degree of the node. The benefits to have this special data structure over others (eg. store the degrees in an array/list) is that it maintains sorted data as new elements are added and old one removed as a sliding window advances over a stream of data. It also gives O(1) indexed access to values. Therefore running time per median update is proportional to the log of the number of nodes in the graph.
+skiplist - included in SRC. This library implements the data structure that allows for a fast O(ln n) insert and remove of the degree of the node. The benefits to have this special data structure over others (eg. store the degrees in an array/list) is that it maintains sorted data as new elements are added and old one removed as a sliding window advances over a stream of data. It also gives O(1) indexed access to values. Therefore running time per median update is proportional to the log of the number of nodes in the graph.
 
 
 ## Running
